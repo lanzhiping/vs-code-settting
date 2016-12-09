@@ -1,0 +1,14 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {"key": "ctrl+p",
+     "command": "workbench.action.showAllSymbols" },
+
+    {"key": "ctrl+t",
+     "command": "workbench.action.quickOpen" }
+,{
+    "key": "ctrl+1",
+    "command": "workbench.debug.action.toggleRepl"
+},{
+    "key": "ctrl+2",
+    "command": "workbench.action.output.toggleOutput" }
+]
