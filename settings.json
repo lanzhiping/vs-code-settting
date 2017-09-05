@@ -1,14 +1,23 @@
+// Place your settings in this file to overwrite the default settings
 {
-    "window.zoomLevel": 0.45,
+    "window.zoomLevel": 0,
     "editor.fontSize": 15,
     "files.eol": "\n",
     "editor.glyphMargin": true,
-    "editor.renderWhitespace": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.renderIndentGuides": true,
     "files.trimTrailingWhitespace": true,
     "TodoParser": {
         "folderExclude": ["node_modules", ".vscode", "dependencies"],
         "markers": ["todo:"]
     },
     "terminal.integrated.fontSize": 12,
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "files.autoSave": "off",
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "vscode-icons",
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": false
+    },
 }
